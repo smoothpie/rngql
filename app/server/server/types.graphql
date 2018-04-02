@@ -1,0 +1,10 @@
+type Ad @model {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  title: String
+  content: String
+  date: String
+  city: String
+  genre: String
+  similarActs: String
+}

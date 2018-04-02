@@ -1,0 +1,11 @@
+types: ./types.graphq
+
+functions:
+  hello:
+    handler:
+      code: src/hello.js
+    type: resolver
+    schema: src/hello.graphql
+
+permissions:
+  - operation: "*"
